@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Hi, I'm Aditya Dinesh Bandal</h1>
+            <p data-aos="fade-up" data-aos-delay="200">A passionate developer creating amazing web experiences.</p>
+            <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400">Get In Touch</a>
+            <a href="#" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="500">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <p data-aos="fade-up" data-aos-delay="200">I am a student at Trinity College of Engineering and Research, pursuing web development with experience in HTML, CSS, JavaScript, and more. I love creating responsive and animated websites. Check out my projects on <a href="https://github.com/AdityaBandal11" target="_blank" style="color: #f39c12;">GitHub</a>.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 data-aos="fade-up">Skills</h2>
+            <div class="skill-list">
+                <div class="skill" data-aos="fade-up" data-aos-delay="200">HTML</div>
+                <div class="skill" data-aos="fade-up" data-aos-delay="300">CSS</div>
+                <div class="skill" data-aos="fade-up" data-aos-delay="400">JavaScript</div>
+                <div class="skill" data-aos="fade-up" data-aos-delay="500">React</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 data-aos="fade-up">Publications</h2>
+            <div class="publication">
+                <h3>Research Paper</h3>
+                <p>I have published a research paper. For more details, please check the attached PDF.</p>
+                <a href="research paper published.pdf" target="_blank" class="publication-link">View Paper</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 data-aos="fade-up">Achievements</h2>
+            <div class="achievement">
+                <h3>Copyrighted Project</h3>
+                <p>I have copyrighted a project with my team. For more details, please check the attached certificate.</p>
+                <a href="CROP Bidder.pdf" target="_blank" class="achievement-link">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 data-aos="fade-up">Projects</h2>
+            <div class="project-grid">
+                <div class="project" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Expense Tracker</h3>
+                    <p>A modern, responsive web application for tracking daily expenses with features like add/edit/delete, persistent data using LocalStorage, pie chart visualization, and payment mode tracking (Cash/UPI/Card).</p>
+                    <a href="https://github.com/AdityaBandal11/Expense-Tracker" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-delay="300">
+                    <h3>AI Neighborhood Safety Perception Map</h3>
+                    <p>A community-driven AI platform where users anonymously share safety experiences. AI analyzes inputs to categorize risk levels and displays a living safety perception map using Leaflet for mapping and Firebase for data storage.</p>
+                    <a href="https://github.com/AdityaBandal11/Hackathon-Project-Pegasas.exe-" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-delay="400">
+                    <h3>DSA Lab Codes</h3>
+                    <p>Collection of Data Structures and Algorithms lab codes implemented in C++ for academic purposes, including various algorithms and data structure implementations.</p>
+                    <a href="https://github.com/AdityaBandal11/DSA-LAB-CODES" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-delay="500">
+                    <h3>CNS Lab Codes</h3>
+                    <p>Computer Networks Security lab codes implemented in C for academic projects, covering network security concepts and implementations.</p>
+                    <a href="https://github.com/AdityaBandal11/CNS-lab-codes" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Contact</h2>
+            <form data-aos="fade-up" data-aos-delay="200">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
